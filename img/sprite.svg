@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="87px" height="40px" viewBox="0 0 87 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>sprite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="56" cy="10" r="10"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="10" cy="10" r="10"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="46" y="20" width="20" height="20" rx="3"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="20" height="20" rx="3"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dropdown">
+            <rect id="Rectangle-2" fill="#F4F4F4" x="0" y="0" width="46" height="40"></rect>
+            <g id="Group" transform="translate(13.000000, 14.000000)">
+                <path d="M2,2 L12.295167,12.295167 C12.6844355,12.6844355 13.3173456,12.6826544 13.704833,12.295167 C13.704833,12.295167 24,2 24,2" id="Line" stroke="#BBBBBB" stroke-width="2" stroke-linecap="square"></path>
+                <circle id="Oval-1" fill="#BBBBBB" cx="1" cy="1" r="1"></circle>
+                <circle id="Oval-1-Copy" fill="#BBBBBB" cx="25" cy="1" r="1"></circle>
+            </g>
+            <path d="M1,7.5 L1,33" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" opacity="0.1"></path>
+            <circle id="Oval-3" fill="#EBEBEB" cx="1" cy="6" r="1"></circle>
+            <circle id="Oval-3-Copy" fill="#EBEBEB" cx="1" cy="34" r="1"></circle>
+        </g>
+        <use id="Oval-5" stroke="#D0D0D0" mask="url(#mask-2)" stroke-width="2" fill="#F7F7F7" xlink:href="#path-1"></use>
+        <g id="Group-2" transform="translate(66.000000, 0.000000)">
+            <g id="Oval-5-Copy">
+                <use fill="#DF3A2C" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+            <circle id="Oval-7" fill-opacity="0.5" fill="#000000" cx="10" cy="11" r="4"></circle>
+            <circle id="Oval-7-Copy" fill="#FFFFFF" cx="10" cy="10" r="4"></circle>
+        </g>
+        <use id="Rectangle-2" stroke="#D1D1D1" mask="url(#mask-6)" stroke-width="2" fill="#F7F7F7" xlink:href="#path-5"></use>
+        <g id="Group-3" transform="translate(66.000000, 20.000000)">
+            <g id="Rectangle-2-Copy">
+                <use fill="#DF3A2C" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            </g>
+            <g id="shadow" opacity="0.5" transform="translate(3.000000, 2.000000)">
+                <circle id="Oval-8-Copy-2" fill="#000000" cx="16.710022" cy="2.1499939" r="1.25"></circle>
+                <circle id="Oval-8-Copy-3" fill="#000000" cx="1.25" cy="10.25" r="1.25"></circle>
+                <path d="M2,11 L5.29408795,14.2940879 C5.68395241,14.6839524 6.28849602,14.6538048 6.64075723,14.2310913 L16,3" id="Line-Copy" stroke="#000000" stroke-width="2.5" stroke-linecap="square"></path>
+            </g>
+            <g id="shadow-copy" transform="translate(3.000000, 1.000000)">
+                <circle id="Oval-8-Copy-2" fill="#FFFFFF" cx="16.710022" cy="2.1499939" r="1.25"></circle>
+                <circle id="Oval-8-Copy-3" fill="#FFFFFF" cx="1.25" cy="10.25" r="1.25"></circle>
+                <path d="M2,11 L5.29408795,14.2940879 C5.68395241,14.6839524 6.28849602,14.6538048 6.64075723,14.2310913 L16,3" id="Line-Copy" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

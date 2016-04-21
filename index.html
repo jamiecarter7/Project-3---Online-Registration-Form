@@ -18,15 +18,22 @@
 		</nav>
 
 		<main>
-			<div class="blurb">
+			<div class="blurb clearfix">
+				<div class="newsletterimg " >
+					<img src="img/newsletter.svg" alt="Sign up!">
+				</div>
 				<h2>Signup for our newsletter</h2>
-				<p>Get the latest new on how your code is doing right in your inbox</p>
+				<p>Get the latest news on how your code is doing right in your inbox</p>
 			</div>
-			<form action="" method="post">
+			<form action="#" method="post">
 				
-				<fieldset class="clearfix">
+				<fieldset class="clearfix left">
 
-				<Legend>Contact Information</legend>
+				<Legend><img class="labelicon" src="img/email.svg" alt="contact icon">Contact Information</legend>
+
+				<label>Title</label>
+				<input class="inline" type="radio" id="mr" name="title"><label class="inline" for="mr"><span></span>Mr</label>
+				<input class="" type="radio" id="mrs" name="title"><label class="" for="mrs"><span></span>Mrs</label><br>
 
 				<label for="name">Full Name</label>
 				<input type="text" id="name" name="name" placeholder="Required" required>
@@ -46,7 +53,7 @@
 				
 				<label for="state">State</label>
 					<div class="select">
-					<select id="state" name="address_state" placeholder="Choose State">
+					<select id="state" name="address_state">
 					    <option value="" disabled selected hidden>Choose State...</option>
 						<option value="Alabama">Alabama</option>
 						<option value="Alaska">Alaska</option>
@@ -104,29 +111,32 @@
 				<label for="zip">Zip Code</label>
 				<input class="zip" type="text" id="zip" name="address_zip">
 
+				<label for="url">Web Address</label>
+				<input type="url" id="url" name="url">
+
 				</fieldset>
 				
 
 				<fieldset class="left clearfix">
 
-					<legend>Newlestter</legend>
-					<p>Select the newsletters you would like to recieve</p>
+					<legend><img class="labelicon" src="img/options.svg" alt="contact icon">Newlestter</legend>
+					<p><b>Select the newsletters you would like to recieve</b></p>
 
-					<input class="inline" type="checkbox" id="htmlnews" name="html_news"><label class="inline" for="htmlnews">HTML News</label><br>
+					<input class="inline" type="checkbox" id="htmlnews" name="html_news"><label class="inline width100" for="htmlnews"><span></span>HTML News</label><br>
 
-					<input class="inline" type="checkbox" id="cssnews" name="css_news"><label class="inline" for="cssnews">CSS News</label><br>
+					<input class="inline" type="checkbox" id="cssnews" name="css_news"><label class="inline width100" for="cssnews"><span></span>CSS News</label><br>
 
-					<input class="inline" type="checkbox" id="jsnews" name="js_news"><label class="inline" for="jsnews">Javascript News</label><br>
+					<input class="inline" type="checkbox" id="jsnews" name="js_news"><label class="inline width100" for="jsnews"><span></span>Javascript News</label><br>
 
-					<p>Newsletter format</p>
+					<p><b>Newsletter format</b></p>
 
-					<input class="inline" type="radio" id="htmlformatemail" name="email_format" checked="checked" ><label class="inline" for="htmlformatemail" >HTML News</label><br>
+					<input class="inline" type="radio" id="htmlformatemail" name="email_format" checked="checked" ><label class="inline checkboxradiolist width100" for="htmlformatemail" ><span></span>HTML Newsletter</label><br>
 
-					<input class="inline" type="radio" id="plaintextemail" name="email_format"><label class="inline" for="plaintextemail">CSS News</label><br>
+					<input class="inline" type="radio" id="plaintextemail" name="email_format"><label class="inline checkboxradiolist width100" for="plaintextemail"><span></span>Plain Newsletter</label><br>
 
 					<p>Other topics you'd like to hear about:</p>
 
-					<textarea class="clearfix"></textarea>
+					<textarea class="clearfix" maxlength="140" placeholder="Max 140 characters"></textarea>
 
 				</fieldset>
 
@@ -134,6 +144,7 @@
 			</form>
 
 			<p>Copyright The Code Review</p>
+
 		</main>
 
 	</body>
